@@ -1,26 +1,40 @@
 {
-  "name": "robinson-gestational-age",
-  "version": "0.0.1",
-  "subdomain": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MathRobin/robinson-gestational-age.git"
-  },
-  "domains": [],
-  "scripts": {},
-  "engines": {
-    "node": ">=0.10"
-  },
-  "dependencies": {
-    "moment": "^2.10.5"
-  },
-  "devDependencies": {},
-  "description": "Calculate gestational age using Robinson curve. Based on the crown-rump length.",
-  "bugs": {
-    "url": "https://github.com/MathRobin/robinson-gestational-age/issues"
-  },
-  "homepage": "https://github.com/mathrobin/robinson-gestational-age",
-  "main": "index.js",
-  "author": "MathRobin <mthrobin@gmail.com>",
-  "license": "MIT"
+    "name": "robinson-gestational-age",
+    "version": "0.0.1",
+    "subdomain": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MathRobin/robinson-gestational-age.git"
+    },
+    "domains": [],
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "jest": {
+        "testFileExtensions": [
+            "specs.js"
+        ],
+        "moduleFileExtensions": [
+            "js",
+            "json"
+        ],
+        "testDirectoryName": "tests"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "dependencies": {
+        "moment": "^2.10.5"
+    },
+    "devDependencies": {
+        "jest-cli": "^0.4.17"
+    },
+    "description": "Calculate gestational age using Robinson curve. Based on the crown-rump length.",
+    "bugs": {
+        "url": "https://github.com/MathRobin/robinson-gestational-age/issues"
+    },
+    "homepage": "https://github.com/mathrobin/robinson-gestational-age",
+    "main": "index.js",
+    "author": "MathRobin <mthrobin@gmail.com>",
+    "license": "MIT"
 }
