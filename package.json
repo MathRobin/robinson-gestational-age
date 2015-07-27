@@ -1,0 +1,26 @@
+{
+  "name": "robinson-gestational-age",
+  "version": "0.0.1",
+  "subdomain": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MathRobin/robinson-gestational-age.git"
+  },
+  "domains": [],
+  "scripts": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "moment": "^2.10.5"
+  },
+  "devDependencies": {},
+  "description": "Calculate gestational age using Robinson curve",
+  "bugs": {
+    "url": "https://github.com/MathRobin/robinson-gestational-age/issues"
+  },
+  "homepage": "https://github.com/mathrobin/robinson-gestational-age",
+  "main": "index.js",
+  "author": "MathRobin <mthrobin@gmail.com>",
+  "license": "MIT"
+}
