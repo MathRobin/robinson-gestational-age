@@ -1,6 +1,6 @@
 # robinson-gestational-age
 
-Calculate gestational age using Robinson curve
+Calculate gestational age using Robinson curve. Based on the crown-rump length.  
 
 ## Setup
 
