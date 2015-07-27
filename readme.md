@@ -2,7 +2,7 @@
 
 Calculate gestational age using Robinson curve. Based on the crown-rump length.
 
-*Français : Détermine l'age gestationnel en fonction de la longueur cranio-caudale du foetus. Utilise la courbe de Robinson.*
+*Français : Détermine l’âge gestationnel en fonction de la longueur cranio-caudale du fœtus. Utilise la courbe de Robinson.*
 
 ## Setup
 
