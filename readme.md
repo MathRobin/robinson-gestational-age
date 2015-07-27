@@ -6,7 +6,7 @@ Calculate gestational age using Robinson curve. Based on the crown-rump length.
 
 ## Setup
 
-```
+```shell
 npm i -S robinson-gestational-age
 ```
 
