@@ -14,6 +14,8 @@ Calculate gestational age using Robinson curve. Based on the crown-rump length.
 
 `
 var robinson_curve = require('robinson-gestational-age');
+
+robinson_curve.getGestationalAge(24); // 63.177
 `
 
 ## License
