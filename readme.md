@@ -1,4 +1,4 @@
-# robinson-gestational-age
+# robinson-gestational-age [![npm version](https://badge.fury.io/js/robinson-gestational-age.svg)](https://badge.fury.io/js/robinson-gestational-age)  [![Build Status](https://travis-ci.org/MathRobin/robinson-gestational-age.svg?branch=master)](https://travis-ci.org/MathRobin/robinson-gestational-age) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/robinson-gestational-age.svg)](https://greenkeeper.io/)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/robinson-gestational-age.svg)](https://greenkeeper.io/)
 
