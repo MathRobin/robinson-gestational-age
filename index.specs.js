@@ -1,7 +1,7 @@
 /*globals jest, require, expect, describe, it */
 jest.autoMockOff();
 
-var testedThing = require('../index');
+var testedThing = require('./index');
 
 describe('getGestationalAge', function () {
     it('to be described correctly', function () {
