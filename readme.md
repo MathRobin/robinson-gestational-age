@@ -1,5 +1,5 @@
 # robinson-gestational-age
-[![npm version](https://badge.fury.io/js/robinson-gestational-age.svg)](https://badge.fury.io/js/robinson-gestational-age) [![NpmLicense](https://img.shields.io/npm/l/robinson-gestational-age.svg?style=popout)](https://github.com/MathRobin/robinson-gestational-age/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/robinson-gestational-age.svg?branch=master)](https://travis-ci.org/MathRobin/robinson-gestational-age) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/robinson-gestational-age.svg)](https://greenkeeper.io/)
+[![NpmLicense](https://img.shields.io/npm/l/robinson-gestational-age.svg?style=popout)](https://github.com/MathRobin/robinson-gestational-age/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/robinson-gestational-age.svg?branch=master)](https://travis-ci.org/MathRobin/robinson-gestational-age)
 
 Calculate gestational age using Robinson curve. Based on the crown-rump length.
 
@@ -11,6 +11,10 @@ Calculate gestational age using Robinson curve. Based on the crown-rump length.
 
 ```shell
 npm i -S robinson-gestational-age
+```
+or yarn
+```shell
+yarn add robinson-gestational-age
 ```
 
 ## Usage

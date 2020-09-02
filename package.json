@@ -1,6 +1,6 @@
 {
   "name": "robinson-gestational-age",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "subdomain": "",
   "repository": {
     "type": "git",
@@ -8,19 +8,27 @@
   },
   "domains": [],
   "scripts": {
-    "test": "jest --coverage"
+    "jest": "jest --coverage",
+    "lint": "eslint *.js",
+    "test": "yarn lint && yarn jest"
   },
   "jest": {
     "testRegex": "\\.specs\\.js$"
   },
   "engines": {
-    "node": "8"
+    "node": "14"
   },
   "dependencies": {
-    "moment": "2.22.2"
+    "moment": "^2.27.0"
   },
   "devDependencies": {
-    "jest-cli": "23.6.0"
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest-cli": "^26.4.2"
   },
   "description": "Calculate gestational age using Robinson curve. Based on the crown-rump length.",
   "bugs": {
