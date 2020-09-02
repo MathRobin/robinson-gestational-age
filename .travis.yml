@@ -1,9 +1,7 @@
 language: node_js
 node_js:
-  - "6"
-  - "8"
-  - "10"
-  - "lts/*" 
+  - "14"
+  - "lts/*"
 
 before_script:
   - export DISPLAY=:99.0
